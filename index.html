@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .header {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+            border-bottom: 2px solid black;
+        }
+        .biodata {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .biodata div {
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .photo-upload {
+            text-align: center;
+            padding: 20px;
+        }
+        #photo-preview {
+            display: block;
+            margin: 10px auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .bio-details {
+            padding-left: 10px;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .description {
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">BIODATA DIRI</div>
+
+        <div class="biodata">
+            <div class="photo-upload">
+                <img id="photo-preview" src="https://i.pinimg.com/736x/aa/0c/06/aa0c0626b5a0b00c9c4e6e1c53803878.jpg" alt="Preview Gambar"><br>
+            </div>
+            <div class="bio-details">
+                <p><strong>Nama:</strong> Muhammad Fakhri Nur Sidiq</p>
+                <p><strong>Email:</strong> fakhri.ns.1504@gmail.com</p>
+                <p><strong>No HP:</strong> 08194150104</p>
+            </div>
+        </div>
+
+        <div class="section-title">RIWAYAT PENDIDIKAN</div>
+        <table>
+            <tr>
+                <td>SD</td>
+                <td>SDI Al Azhar 12 Cikarang</td>
+            </tr>
+            <tr>
+                <td>SMP</td>
+                <td>International Islamic Boarding School</td>
+            </tr>
+            <tr>
+                <td>SMA</td>
+                <td>International Islamic Boarding School</td>
+            </tr>
+        </table>
+
+        <div class="section-title">DESKRIPSI SINGKAT</div>
+        <div class="description">
+            Saya Muhammad Fakhri Nur Sidiq, mahasiswa Jurusan Sistem Informasi di Telkom University. Saya memiliki passion yang kuat dalam pengembangan perangkat lunak dan berkomitmen untuk menjadi program developer. Saat ini, saya sedang mempelajari bahasa pemrograman Python, HTML, dan Java. Saya bertekad untuk terus mengembangkan keterampilan teknis saya dan siap berkontribusi dalam proyek yang menantang. Dengan semangat belajar yang tinggi, saya berharap dapat tumbuh dan berkontribusi di lingkungan yang dinamis.
+        </div>
+    </div>
+
+</body>
+</html>
